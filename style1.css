@@ -1,0 +1,425 @@
+/*
+Theme Name: Rythym Vision
+Description: Theme For Rythym Vision
+Author: John Krueger & Jeff Malek
+Version: 1.0
+*/
+/*==================================================*/
+/* Base
+/*==================================================*/
+body {
+	background: url('assets/images/body_bkgrnd.png');
+}
+/* Sticky footer */
+html, body, #wrapper { 
+	height: 100%; 
+	margin: 0; 
+	padding: 0; 
+}
+body > #wrapper { 
+	height: auto; 
+	min-height: 100%; 
+}
+#push{ 
+	padding-bottom: 79px; 
+}
+#footer_wrap{ 
+	position: relative; 
+	margin-top: -79px; 
+	height: 79px; 
+	clear: both; 
+}
+/* Clears */
+.clear{ 
+	clear: both; 
+}
+.cleared:after{ 
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden; 
+}
+/* Headers */
+h1, h2, h3, h4, h6,{ 
+	margin-top: 10px;
+	font-family: trebuchet ms;
+	font-size: 10px;
+	font-size: 40px;
+}
+/*==================================================*/
+/* Structure
+/*==================================================*/
+#header_wrap, #footer_wrap{ 
+	position: relative; 
+	width: 100%; 
+}
+#header, #content_wrap, #footer{ 
+	position: relative; 
+	width: 978px; 
+	margin: 0 auto; 
+}
+.content{ 
+	width: 771px; 
+	margin-left: 102px;
+}
+#sidebar_wrap{ 
+	width: 30%; 
+	float: right; 
+}
+#sidebar{}
+#footer_wrap{}
+#footer{}
+
+/* Sidebar */
+body.sidebar_left #content{ 
+	float: right; 
+}
+body.sidebar_left #sidebar_wrap{ 
+	float: left; 
+}
+body.sidebar_right #content{ 
+	float: left; 
+}
+body.sidebar_right #sidebar_wrap{ 
+	float: right; 
+}
+body.sidebar_none #content{ 
+	width: 100%; 
+}
+body.sidebar_none #sidebar_wrap{ 
+	display: none; 
+}
+/*==================================================*/
+/* Share Plugin Customization
+/*==================================================*/
+.stButton {
+	display: inline !important;
+	/*float: right;*/
+	text-decoration: underline !important;
+	font-family: trebuchet ms;
+}
+#creditLine, .sts-fl {
+	display: none !important;
+	visibility: hidden;
+}
+.stButton .chicklets {
+	font-family: inherit !important;
+	font-size: small !important;
+	display: inline !important;
+}
+.sts-cb {
+	display: none !important;
+}
+/*==================================================*/
+/* Header
+/*==================================================*/
+#header .logo{ 
+	display: block; 
+	text-align: center;
+	position: relative;
+	top: 14px
+	padding: 0px;
+}
+#header .menu{ 
+	background: #eee; 
+}
+#header .menu{ 
+	margin: 0; 
+	padding: 0; 
+	list-style: none; 
+}
+#header .menu li{ 
+	float: right; 
+}
+#header .menu li a{ 
+	padding: 0 10px; 
+	height: 50px; 
+	line-height: 50px; 
+}
+/*==================================================*/
+/* index
+/*==================================================*/
+.content.top_cols {
+	height: 455px;
+	position: relative;
+	top: -18px;
+}
+.col {
+	float:left;
+}
+.col .col_img_pad img {
+	margin-top: 15px;
+}
+.top_side {
+	width: 126px;
+}
+.top_center {
+	width: 519px;
+}
+#top_center_img {
+	position: relative;
+	left: 40px;
+	top: 0px;
+}
+.top_center p {
+	text-align: center;
+	position: relative;
+	z-index: -2;
+	top: -35px;
+	font-family: palatino linotype;
+	font-size: 22px;
+}
+.tcol_link {
+	font-size: small;
+	color: black;
+	line-height: 25px;
+	font-family: trebuchet ms;
+}
+.anchor_nav {
+	display: none;	
+	height: 125px;
+	width: 120px;
+	position: absolute;
+	background-color: #DEEEF9;
+	text-align: center;
+}
+.anchor_left {
+	float: right;
+	margin-left: 126px;
+	border-radius: 0 10px 10px 0;
+	-moz-border-radius: 0 10px 10px 0;
+	-webkit-border-radius: 0 10px 10px 0;
+	box-shadow: 5px 5px 5px #375878;
+	-moz-box-shadow: 5px 5px 5px #375878;
+	-webkit-box-shadow: 5px 5px 5px #375878;
+}
+.anchor_right {
+	float: left;
+	margin-left: -120px;
+	border-radius: 10px 0 0 10px;
+	-moz-border-radius: 10px 0 0 10px;
+	-webkit-border-radius: 10px 0 0 10px;
+	box-shadow: -5px 5px 5px #375878;
+	-moz-box-shadow: -5px 5px 5px #375878;
+	-webkit-box-shadow: -5px 5px 5px #375878;
+}
+#slideshow {
+	height: 240px;
+	width: 770px;
+	padding: 10px;
+	background: url('assets/images/sliderbkgrnd.png') no-repeat;
+	position: relative; 
+	top: -10px;
+	right: 6px;
+	bottom: 10px;
+}
+.slider-wrapper.theme-bar {
+	position: relative;
+	top: -32px;
+}
+.read_more {
+	float: right;
+	color: #ECF9FA;
+	font-weight: normal;
+        font-family: palatino linotype;
+}
+.bottom_cols {
+	height: 282px;
+}
+.bottom_left {
+	width: 373px;
+}
+.bottom_center {
+	width: 199px;
+}
+.bottom_center img {
+	padding: 25px;
+}
+.bottom_right {
+	width: 199px;
+}
+#side_field {
+	background: url('assets/images/home_low_side_field.png');
+	height: 282px;
+	width: 199px;
+}
+#bottom_links {
+	/*margin: 4px 0 0 -6px;*/
+	background: url('assets/images/blog_bkgrnd.png') no-repeat;
+	width: 785px;
+	height: 187px;
+	float: left;
+	position: relative;
+	top: -20px;
+	box-shadow: 5px 5px 5px #375878;
+	-webkit-box-shadow: 5px 5px 5px #375878;
+	-moz-box-shadow: 5px 5px 5px #375878;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+.link_box {
+	float: left;
+	vertical-align: top;
+	width: 25%;
+	position: relative;
+	top: 0px;
+}
+.link_box h2 {
+	text-align: center;
+	font-family: trebuchet ms;
+	position: relative;
+	top: 5px;
+}
+#link_box_para {text-align: left;
+		position: relative;
+		left: 20px;
+		font-family: palatino linotype;
+}
+.link_box_divider {
+	float: right;
+	position: relative;
+	top: -120px;
+	left: 80px;
+	margin: 0;
+	padding: 10px;
+	border-right: 4px solid black;
+	height: 100px;
+}
+
+.sponsors {
+	float: left;
+	position: relative;
+	width: 100%;
+	}
+/*==================================================*/
+/* Page
+/*==================================================*/
+#top_links {
+	width: 768px;
+	margin-top: -15px;
+}
+a.tlink {
+	text-align: center;
+	display: block;
+	float: left;
+	color: white;
+	width: 16.6%;
+	font-family: trebuchet ms;
+	font-size: 21px;
+}
+a.sidelink {
+	text-align: center;
+	display: block;
+	color: black;
+	padding: 8px;
+	font-size: inherit !important;
+	font-family: trebuchet ms;
+}
+#page_sidebar .st_sharethis {
+	text-align: center;
+	padding: 9px;
+	display: block;
+}
+#page_sidebar .sharethis {
+	font-size: 16px !important;
+	position: relative;
+	right: 9px;
+}
+.inner {
+	padding: 10px;
+}
+.inner h2 {
+	font-size: 40px;
+	font-family: trebuchet ms;
+}
+#page_content_wrap {
+	width: 541px;
+	margin: 20px;
+	float: left;
+}
+.page_content_col {
+	width: 541px;
+	background-image: url('assets/images/pagebox_main.png');
+	text-align: center;
+	font-family: trebuchet ms;
+}
+.page_content_col::after {
+	content:"";
+	display: block;
+	width: 542px;
+	height: 9px;
+	background: url('assets/images/pagebox_bottom.png') no-repeat;
+}
+#page_content_wrap_before {
+	width: 541px;
+	height: 9px;
+	background: url('assets/images/pagebox_top.png');
+	margin-top: -10px;
+}​
+/* 
+* for some reason, this needs to be here else it breaks...
+* FML!!!!!
+*/
+#brokedontknowwhy {}
+#page_sidebar {
+	float: right;
+	margin: 16px 20px;
+}
+#page_menu_box {
+	width: 218px;
+	height: 441px;
+	background: url('assets/images/page_sidebar.png');
+	margin-top: -10px;
+}
+.sponsors_page {
+	position: relative;
+	width: 100%;
+}
+/*==================================================*/
+/* Footer
+/*==================================================*/
+.foot_bar {
+	background-color: black;
+	border: none;
+	height: 4px;
+}
+.foot_left {
+	float: left;
+	color: black;
+	font-family: palantino linotype;
+	font-size: 20px;
+}
+.foot_center {
+	float: left;
+	margin-left: 80px;
+	text-align: center;
+	font-family: palantino linotype;
+	font-size: 20px;
+}
+.foot_center a {
+	color: white;
+}
+.foot_right {
+	float: right;
+}
+/*==================================================*/
+/* Responsive
+/*==================================================*/
+@media screen and (max-width: 640px) {
+	#header, #content_wrap, #footer{ 
+		width: auto; 
+		padding: 0 20px; 
+	}
+	#header .menu{ 
+		background: #bbb; 
+	}
+}
+@media screen and (min-width: 640px) and (max-width: 800px) {
+	#header, #content, #footer{ 
+		width: auto; 
+		padding: 0 20px; 
+	}
+}
+@media screen and (min-width: 800px) {}
